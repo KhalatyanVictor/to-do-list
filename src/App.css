@@ -1,0 +1,78 @@
+.headerText {
+  margin: 0 auto;
+  margin-top: 50px;
+  color: #1976d2;
+}
+
+.inputButtonDiv {
+  margin: 0 auto;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  width: 500px;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+#inputId {
+  margin: 0 auto;
+  background: none;
+  height: 30px;
+  width: 300px;
+  border-radius: 10px;
+}
+
+.container {
+  margin: 0 auto;
+  display: flex;
+  margin-top: 20px;
+  justify-content: space-between;
+}
+
+.toDoTitle {
+  margin: 0 auto;
+  height: 100%;
+  width: 500px;
+  border-radius: 20px;
+}
+
+.value {
+  margin: 0 auto;
+  color: #1976d2;
+  border-radius: 18px;
+}
+
+.sharedBtn {
+  margin: 0 auto;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+.delete {
+  margin-left: 20px;
+}
+
+.deleteBtn {
+  margin: 0 auto;
+  border-radius: 10px;
+  color: #ffffff;
+  background-color: #1976d2;
+  transition: all 0.5s ease;
+}
+
+.deleteBtn:hover {
+  margin: 0 auto;
+  border-radius: 10px;
+  border: none;
+  color: #ffffff;
+  background-color: red;
+  cursor: pointer;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  gap: 20px;
+}
